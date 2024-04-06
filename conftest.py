@@ -7,5 +7,6 @@ def driver():
     driver.set_window_size(1296, 756)
     driver.get("https://stellarburgers.nomoreparties.site/")
     yield driver
+    driver.quit()
 
 
